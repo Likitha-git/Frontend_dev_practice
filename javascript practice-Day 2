@@ -18,3 +18,18 @@ for(let i = 0; i < sentence.length; i++){
   }
 }
 console.log(count); // output---->9
+
+//--------replace all space with dashes------
+let word ="hello, how are you?";
+let result = "";
+for (let i = 0; i < word.length; i++ ){
+if (word[i] === " ") {
+result += "-";
+}
+else {
+result += word[i];
+}
+}
+console.log(result); //------>hello,-how-are-you?
+
+
